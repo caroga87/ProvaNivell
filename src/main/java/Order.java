@@ -1,14 +1,13 @@
-import java.util.ArrayList;
 import java.util.Map;
 
-public class Orders {
+public class Order {
     private int id;
     private static int nextId=1;
     private Client client;
-    private Map<Products, Integer> productsList;
+    private Map<Product, Integer> productsList;
     private DeliveryPerson deliveryPerson;
 
-    public Orders(Client client, Map<Products, Integer> productsList, DeliveryPerson deliveryPerson) {
+    public Order(Client client, Map<Product, Integer> productsList, DeliveryPerson deliveryPerson) {
         id=nextId++;
         this.client = client;
         this.productsList = productsList;
@@ -23,7 +22,7 @@ public class Orders {
         return client;
     }
 
-    public Map<Products, Integer> getProductsList() {
+    public Map<Product, Integer> getProductsList() {
         return productsList;
     }
 
@@ -39,11 +38,12 @@ public class Orders {
 
     @Override
     public String toString() {
-        return "Orders{" +
-                "id=" + id +
-                ", client=" + client +
-                ", productsList=" + productsList +
-                ", deliveryPerson=" + deliveryPerson +
-                '}' +"Total price" +getTotalPrice();
+        return "Orders{\n" +
+                "Order's id: " + id + "\n" +
+                "Client: " + client + "\n" +
+                "Order's product: " + productsList + "\n" +
+                "Delivery: " + deliveryPerson + "\n" +
+                "}\n" +
+                "The total price is " + getTotalPrice();
     }
 }

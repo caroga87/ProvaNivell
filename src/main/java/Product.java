@@ -1,18 +1,21 @@
-public enum Products {
+public enum Product {
 
-    BURRITO (6.50, "pin"),
-    BURGERS (8.90, "cap"),
-    KEBAB (4.50),
-    PIZZA (7.90);
+    BURRITO ("Burrito", 6.50, "pin"),
+    BURGERS ("Burger", 8.90, "cap"),
+    KEBAB ("Kebab", 4.50),
+    PIZZA ("Pizza",7.90);
+    private String name;
     private double price;
     private String gift;
 
-    Products(double price, String gift) {
+    Product(String name, double price, String gift) {
+        this.name=name;
         this.price = price;
         this.gift = gift;
     }
 
-    Products (double price) {
+    Product(String name, double price) {
+        this.name=name;
         this.price=price;
     }
 
@@ -22,8 +25,9 @@ public enum Products {
 
     @Override
     public String toString() {
-        return "Products{" +
-                "price=" + price +
+        return "Product{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
                 ", gift='" + gift + '\'' +
                 '}';
     }
