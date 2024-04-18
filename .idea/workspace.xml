@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcf73cf9-26b0-438e-9bc7-f73540e0d707" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="bcf73cf9-26b0-438e-9bc7-f73540e0d707" name="Changes" comment="hhghgkj">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DeliveryBruumm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DeliveryBruumm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tasca2.-Patterns/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tasca2.-Patterns/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tasca2.-Patterns/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tasca2.-Patterns/.idea/vcs.xml" afterDir="false" />
     </list>
@@ -33,6 +29,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -69,5 +68,16 @@
       <updated>1712218396952</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
